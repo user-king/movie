@@ -1,0 +1,11 @@
+onCreate:
+  - sudo corepack enable
+  - sudo npm install -g react-native-cli react-native
+
+onStart:
+  - |
+        printf "GO TO dashboard and open the GUI by clicking GUI icon under more options of the workspace\n\n"
+        printf "open android studio and create AVD and then run it\n\n"
+        printf "then, to run the react-native project, run the following commands in two terminals by splitting\n\n"
+        printf "npx react-native start"
+        printf "npx react-native run-android"
