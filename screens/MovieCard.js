@@ -8,7 +8,7 @@ const MovieCard = ({ movie, onPress }) => {
       <View style={{ flex: 1 }}>
         <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 5 }}>{movie.Title}</Text>
         <Text style={{ color: '#777', marginBottom: 5 }}>{movie.Year}</Text>
-        <Text style={{ fontSize: 14, color: '#555' }}>{movie.Plot}</Text>
+        <Text style={{ fontSize: 14, color: '#555' }}>{movie.Type}</Text>
       </View>
     </TouchableOpacity>
   );

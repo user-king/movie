@@ -9,11 +9,8 @@ const SearchScreen = ({ navigation }) => {
   const [movies, setMovies] = useState([]);
   const [error, setError] = useState('');
 
-  console.log("hello")
-
   const handleSearch = async () => {
-    console.log('consiole');
-    // if (!query) return;
+    if (!query) return;
     try {
       setLoading(true);
       const data = await searchMovies(query);
